@@ -32,7 +32,7 @@ body{
 .name{
     /* border: 2px red solid; */
     margin: 100px auto;
-    margin-top: -5px;
+    margin-top: -3px;
     width:fit-content
 
 }
@@ -46,6 +46,7 @@ body{
     position:relative;
     bottom:20px;
     
+    
 }
 
 @media screen and (max-width:400px){
@@ -55,5 +56,25 @@ body{
     width: 250px;
     clip-path: circle();
 }
+
+.name{
+    font-size: 30px;
+}
+
+.aboutme{
+    font-size: 15px;
+}
+
+}
+
+.Skills{
+    border: 2px solid red;
+    width:fit-content;
+    margin: 100px auto;
+    position: relative;
+    right: 370px;
+    bottom: 60px;
+    
+    
 
 }
