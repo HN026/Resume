@@ -14,11 +14,12 @@ body{
 
 
 .face1{
-    /* border: 2px red solid; */
+    border: 2px red solid;
     margin: 100px auto;
     text-align: center;
-    width: 50%;
+    width: fit-content;
     height:430px;
+
     
     
 }
@@ -29,14 +30,15 @@ body{
 }
 
 .name{
-    /* border: 2px red solid; */
+    border: 2px red solid;
     margin: 100px auto;
     margin-top: -5px;
+    width:fit-content
 
 }
 
 .aboutme{
-    /* border: red 2px solid; */
+    border: red 2px solid;
     margin: 100px auto;
     margin-top: -60px;
     width: 300px;
