@@ -14,7 +14,7 @@ body{
 
 
 .face1{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     margin: 100px auto;
     text-align: center;
     width: fit-content;
@@ -25,12 +25,12 @@ body{
 }
 
 .myimage{
-    width:400px;
+    width: 400px;
     clip-path: circle();
 }
 
 .name{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     margin: 100px auto;
     margin-top: -5px;
     width:fit-content
@@ -38,7 +38,7 @@ body{
 }
 
 .aboutme{
-    border: red 2px solid;
+    /* border: red 2px solid; */
     margin: 100px auto;
     margin-top: -60px;
     width: 300px;
@@ -46,5 +46,14 @@ body{
     position:relative;
     bottom:20px;
     
+}
+
+@media screen and (max-width:400px){
+  
+    
+.myimage{
+    width: 250px;
+    clip-path: circle();
+}
 
 }
